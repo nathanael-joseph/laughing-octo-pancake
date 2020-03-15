@@ -1,3 +1,5 @@
+ 
+
 when in the root directory of a project, you can create a git repository using the command
     $ git init
 
@@ -14,4 +16,14 @@ You can add all files using
     $ git add *
 
 Commit staged changes with 
-    $ git commit -m "add gitNotes.txt"
+    $ git commit -m "the commit message"
+commit messages should follow the convention "this commit will [message]"
+Staged changes are commited to the current branch, which is "master" by default.
+
+to check the changes made
+    $ git diff
+to check the staged changes, use:
+    $ git diff --staged
+
+
+
