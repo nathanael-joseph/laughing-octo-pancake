@@ -1,0 +1,2 @@
+when in the root directory of a project, you can create a git repository using the command
+    $ git init
