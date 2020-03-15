@@ -1,2 +1,17 @@
 when in the root directory of a project, you can create a git repository using the command
     $ git init
+
+set your user details in orderr to commit changes. 
+    $ git config --global user.name "nathanael joseph"
+    $ git config --global user.email "nathanaeljy@outlook.com"
+
+Check which files have been staged, which are not being tracked, etc.
+    $ git status
+
+Add the unstaged files
+    $ git add [filename]
+You can add all files using
+    $ git add *
+
+Commit staged changes with 
+    $ git commit -m "add gitNotes.txt"
