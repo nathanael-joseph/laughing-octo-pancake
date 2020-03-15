@@ -25,5 +25,3 @@ to check the changes made
 to check the staged changes, use:
     $ git diff --staged
 
-
-
