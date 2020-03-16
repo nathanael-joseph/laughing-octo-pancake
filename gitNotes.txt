@@ -15,6 +15,9 @@ Add the unstaged files
 You can add all files using
     $ git add *
 
+to unstage a change, run
+    $ git reset HEAD [filename]
+
 Commit staged changes with 
     $ git commit -m "the commit message"
 commit messages should follow the convention "this commit will [message]"
@@ -28,4 +31,15 @@ to check the staged changes, use:
 to remove a file from the working directory and stage the deletion:
     $ git rm [filename]
 then commit the deletion.
+
+Files can be moved from one folder to another, or renamed with:
+    $ git mv [current filename] [new filename]
+git mv will stage this change, and it can then be commited. 
+
+To discard the changes made to an unstaged file, and revert it to the last commit, use:
+    $ git checkout -- [filename]
+this can also be used to restore a deleted file. 
+
+
+
 
