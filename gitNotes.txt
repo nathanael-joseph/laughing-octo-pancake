@@ -7,7 +7,7 @@ set your user details in orderr to commit changes.
     $ git config --global user.name "nathanael joseph"
     $ git config --global user.email "nathanaeljy@outlook.com"
 
-Check which files have been staged, which are not being tracked, etc.
+Check which files have been staged, which have been commited, and which are not being tracked:
     $ git status
 
 Add the unstaged files
@@ -24,4 +24,8 @@ to check the changes made
     $ git diff
 to check the staged changes, use:
     $ git diff --staged
+
+to remove a file from the working directory and stage the deletion:
+    $ git rm [filename]
+then commit the deletion.
 
