@@ -40,6 +40,19 @@ To discard the changes made to an unstaged file, and revert it to the last commi
     $ git checkout -- [filename]
 this can also be used to restore a deleted file. 
 
+See commit history using:
+    $ git log
+from here, you can copy the hash of commits for later use in git revert. 
+(only the first 5 characters are required.)
+
+To revert the project to a previous commit:
+    $ git revert [commitSHA]
+this will create a new commit. 
+
+To revert to the last commit:
+    $ git revert HEAD 
+
+
 
 
 
