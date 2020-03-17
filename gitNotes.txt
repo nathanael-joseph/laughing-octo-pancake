@@ -1,11 +1,19 @@
- 
+Git is a distrubed version control system (VCS)
+It is distrubuted because each clone contains the entire version history.
+This allows a central repository to be restored from a local clone, and via versa.
+Developers can clone repostories, pull and push changes to eachother, and to a central repository.
+Platforms like GitHub, BitBucket, AzureDevops etc. provide VCS servers,
+for centralised git repos which users can clone, and work on locally.
+
+Check your git version
+    $ git --version
+
+set your user details in order to commit changes. 
+    $ git config --global user.name "nathanael joseph"
+    $ git config --global user.email "nathanaeljy@outlook.com"
 
 when in the root directory of a project, you can create a git repository using the command
     $ git init
-
-set your user details in orderr to commit changes. 
-    $ git config --global user.name "nathanael joseph"
-    $ git config --global user.email "nathanaeljy@outlook.com"
 
 Check which files have been staged, which have been commited, and which are not being tracked:
     $ git status
