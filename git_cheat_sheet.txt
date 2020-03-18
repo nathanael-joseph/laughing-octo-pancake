@@ -60,6 +60,27 @@ this will create a new commit.
 To revert to the last commit:
     $ git revert HEAD 
 
+To make a copy of a local or remote repository, move to the folder you want to
+clone it to and execute:
+    $ git clone [repo directory/address] [name of clone]
+
+When a repository is clones, the repository which it was cloned from si automatically 
+added as the "origin" remote repository. 
+Pull the latest commits from a remote repository:
+    $ git pull [remote name] [branch name]
+the remote name is origin by default, and for most cases, commits are pulled 
+from the master branch
+    $ git pull origin master
+
+to see the remote repositiories configured for the current repo, run:
+    $ git remote
+
+Add a remote repo:
+    $ git remote add [name] [repository address]
+
+
+
+
 
 
 
