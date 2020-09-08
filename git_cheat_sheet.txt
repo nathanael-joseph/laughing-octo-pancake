@@ -64,7 +64,7 @@ To make a copy of a local or remote repository, move to the folder you want to
 clone it to and execute:
     $ git clone [repo directory/address] [name of clone]
 
-When a repository is clones, the repository which it was cloned from si automatically 
+When a repository is cloned, the repository which it was cloned from is automatically 
 added as the "origin" remote repository. 
 
 to see the remote repositiories configured for the current repo, run:
